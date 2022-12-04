@@ -1,0 +1,81 @@
+body{
+	background-image: url('wall9.jpg');
+	background-size: 100%;
+	margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: cursive;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: linear-gradient(to left,#808000,#A9A9A9);
+    color: yellow;
+    padding-top: 30px;
+    min-height: 5px;
+    border-bottom: 4px rgb(143, 188, 144);
+}
+header #main h1{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding : 0 30px 0 30px;
+}
+header a{
+    color: yellow;
+    text-decoration: wheat;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+input[type="text"] {
+    width: 99%;
+    height: 40px;
+}
+input[type="number"] {
+    width: 97%;
+    height: 40px;
+}
+.tombol{
+	border-radius: 2px;
+	padding: 8px 16px;
+	font-size: 20px;
+	border-bottom:2x solid #BF3D3D;
+    margin: 4px 2px;    
+}
+h3{
+	color: #808000;
+}
+p{
+	color: 	#800000;
+}
+h4{
+    color:  #808000;
+}
+h2{
+	color: #FF7F50;
+}
+#finish{
+    background: -webkit-linear-gradient(bottom , #BDB76B ,  #8FBC8F, #FFE4C4);
+    height: 350px;
+    width: 430px;
+    float: right;
+    right: 0;
+    margin-right: 100px;
+    color: #808000;
+}
+select{
+    width: 89%;
+    height: 40px;
+}
+#box{
+    float: left;
+}
